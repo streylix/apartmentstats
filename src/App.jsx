@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import ApartmentList from './pages/ApartmentList';
 import ApartmentDetail from './pages/ApartmentDetail';
+import './styles/styles.css'
 
 const App = () => {
   return (

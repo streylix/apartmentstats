@@ -2,16 +2,8 @@ import React from "react";
 import ProgressBar from './ProgressBar';
 
 const StatDisplay = ({ label, rating, icon: Icon }) => {
-  const containerStyles = {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '8px',
-    paddingBottom: '8px',
-    marginBottom: '12px'
-  };
-
   return (
-    <div style={containerStyles}>
+    <div className="stat-container">
       <ProgressBar rating={rating} />
       <div className="flex items-center">
         <Icon size={24} className="mr-2 text-white" />
@@ -21,4 +13,4 @@ const StatDisplay = ({ label, rating, icon: Icon }) => {
   );
 };
 
-export default StatDisplay
+export default StatDisplay;
