@@ -1,9 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import ApartmentList from './pages/ApartmentList';
 import ApartmentDetail from './pages/ApartmentDetail';
-
 
 const App = () => {
   return (
