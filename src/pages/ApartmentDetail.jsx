@@ -441,7 +441,7 @@ const ApartmentDetail = () => {
         <div style={styles.section.container}>
           <h2 style={styles.section.heading}>Property highlights</h2>
           <p style={styles.section.text}>
-            Experience the epitome of luxury at Reserve at Stone Port, a community where style meets convenience. Nestled amidst lush landscapes with scenic mountain views, this property is just steps away from Harrisonburg's vibrant downtown. Residents can indulge in a range of amenities like a basketball court, media room, and hot tub. Proximity to prominent institutions like James Madison University and an array of restaurants ensures a dynamic lifestyle. With its award-winning service team and accessible location, Reserve at Stone Port stands out as a premier home for those seeking luxury and convenience.
+            Experience the epitome of luxury at H.Q at Tilted Towers, a community where style meets convenience. Nestled amidst lush landscapes with scenic mountain views, this property is just steps away from Oasis's vibrant downtown. Residents can indulge in a range of amenities like a basketball court, media room, and hot tub. Proximity to prominent institutions like Hustler University and an array of restaurants ensures a dynamic lifestyle. With its award-winning service team and accessible location, H.Q at Tilted Towers stands out as a premier home for those seeking luxury and convenience.
           </p>
           
           <div style={styles.section.highlightBox}>
@@ -497,7 +497,7 @@ const ApartmentDetail = () => {
         <div style={styles.section.container}>
           <h2 style={styles.section.heading}>Price and Availability</h2>
           <p style={{...styles.section.text, marginBottom: '1rem'}}>
-            Verified by Reserve at Stone Port 3 HRS ago. Prices may vary depending on lease length. We get our prices directly from Reserve at Stone Port.
+            Verified by H.Q at Tilted Towers 3 HRS ago. Prices may vary depending on lease length. We get our prices directly from H.Q at Tilted Towers.
           </p>
           
           <div style={{
@@ -935,7 +935,7 @@ const ApartmentDetail = () => {
       <div style={styles.navigation.backNav.outer}>
         <a href="/" style={styles.navigation.backNav.link}>
           <ArrowLeft style={styles.navigation.backNav.icon} />
-          <span>All apartments in Harrisonburg</span>
+          <span>All apartments in Oasis</span>
         </a>
       </div>
 
@@ -944,7 +944,7 @@ const ApartmentDetail = () => {
         {/* Property Header */}
         <div style={styles.propertyHeader.container}>
           <div style={styles.propertyHeader.titleContainer}>
-            <h1 style={styles.propertyHeader.title}>Reserve at Stone Port</h1>
+            <h1 style={styles.propertyHeader.title}>H.Q at Tilted Towers</h1>
             <div style={styles.propertyHeader.actions}>
               <button style={styles.propertyHeader.actionButton}>
                 <Share2 size={20} />
@@ -958,7 +958,7 @@ const ApartmentDetail = () => {
           {/* Contact Information */}
           <div style={styles.propertyHeader.contactInfo}>
             <Phone size={16} />
-            <span>(540) 889-0601</span>
+            <span>(###) ###-####</span>
             <span>•</span>
             <Clock size={16} />
             <span>Open Now until 6:00 PM</span>

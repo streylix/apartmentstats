@@ -6,8 +6,8 @@ const ApartmentList = () => {
     const sampleApartments = [
       {
         id: 1,
-        name: "Reserve at Stone Port",
-        location: "2015 Reserve Circle, Harrisonburg, VA",
+        name: "H.Q. at tilted towers",
+        location: "boogie lane, Fort, Nite",
         unitsAvailable: 26,
         image: "/api/placeholder/400/300",
         imageCount: 1,
