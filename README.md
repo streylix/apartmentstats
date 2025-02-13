@@ -1,6 +1,12 @@
 # ApartmentStats
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://apartmentstats.vercel.app/)
+
 ApartmentStats is a modern web application built with React and Vite that helps users find and evaluate apartments. The application provides detailed statistics and ratings for various aspects of apartment units, helping users make informed decisions about their next home.
+
+## 🚀 Live Demo
+
+Check out the live application: [ApartmentStats Demo](https://apartmentstats.vercel.app/)
 
 ## Features
 
